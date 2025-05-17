@@ -1,4 +1,4 @@
-# @ertu/forms
+# ertu-forms
 
 A customizable and Nuxt 3-compatible input component with validation and masking support.
 
@@ -14,7 +14,7 @@ A customizable and Nuxt 3-compatible input component with validation and masking
 ## 📦 Installation
 
 ```bash
-npm install @ertu/forms
+npm install ertu-forms
 ```
 
 ## 🚀 Usage
@@ -24,7 +24,7 @@ npm install @ertu/forms
 ```ts
 import { createApp } from 'vue'
 import App from './App.vue'
-import ERTUForms from '@ertu/forms'
+import ERTUForms from 'ertu-forms'
 
 const app = createApp(App)
 
@@ -39,7 +39,7 @@ app.use(ERTUForms, {
 ### Or Direct Import
 
 ```ts
-import { BaseInput } from '@ertu/forms'
+import { BaseInput } from 'ertu-forms'
 ```
 
 ### Nuxt 3 Auto-Import Support
@@ -48,7 +48,7 @@ import { BaseInput } from '@ertu/forms'
 // nuxt.config.ts
 export default defineNuxtConfig({
   components: [
-    { path: 'node_modules/@ertu/forms/src/components', extensions: ['vue'] }
+    { path: 'node_modules/ertu-forms/src/components', extensions: ['vue'] }
   ]
 })
 ```
