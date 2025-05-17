@@ -1,0 +1,20 @@
+# Development files
+playground/
+.vscode/
+.idea/
+node_modules/
+dist/
+
+# Test & config
+coverage/
+*.test.*
+*.spec.*
+tsconfig.*.json
+vitest.config.*
+
+# Source files
+*.log
+.DS_Store
+
+# Nuxt generated files (from demo)
+.nuxt/
